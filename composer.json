@@ -1,0 +1,19 @@
+{
+    "name": "databasifylabs/example-dns-plugin",
+    "description": "Example Databasify plugin: a fake DNS provider that keeps records in a JSON file.",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Databasify\\ExampleDns\\": "src/"
+        }
+    },
+    "extra": {
+        "databasify": {
+            "plugin": "Databasify\\ExampleDns\\ExampleDnsPlugin",
+            "requires": "^0.1",
+            "icon": "icon.svg"
+        }
+    }
+}
