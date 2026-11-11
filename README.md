@@ -4,7 +4,7 @@ A working [Databasify](https://github.com/databasifylabs/databasify) plugin and 
 
 ## Try it
 
-1. In Databasify, open **Plugins**, click **Install plugin** and enter `databasifylabs/example-dns-plugin`, or upload a zip of this repository.
+1. In Databasify, open **Plugins**, click **Install plugin** and enter `databasifylabs/plugin-example-dns`, or upload a zip of this repository.
 2. Open **DNS → Add**, pick **Example DNS** and fill in any account name and token, for example `demo` and `secret`.
 3. The zones `example-dns.test` and `demo.test` appear. Point a database at one of them.
 

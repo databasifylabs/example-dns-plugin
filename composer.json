@@ -1,5 +1,5 @@
 {
-    "name": "databasifylabs/example-dns-plugin",
+    "name": "databasifylabs/plugin-example-dns",
     "description": "Example Databasify plugin: a fake DNS provider that keeps records in a JSON file.",
     "version": "1.0.0",
     "type": "library",

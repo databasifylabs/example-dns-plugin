@@ -23,7 +23,7 @@ final class ExampleDnsPlugin extends AbstractPlugin
             ->instructions([
                 'This provider is fake: nothing reaches real DNS.',
                 'Fill in any account name and token, for example `demo` and `secret`.',
-                'Records go to `storage/app/example-dns/` on the Databasify server. See the [plugin README](https://github.com/databasifylabs/example-dns-plugin).',
+                'Records go to `storage/app/example-dns/` on the Databasify server. See the [plugin README](https://github.com/databasifylabs/plugin-example-dns).',
             ])
             ->register();
     }
